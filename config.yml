@@ -1,0 +1,90 @@
+game:
+  window_width: 900        # menu / level-select window width  (pixels)
+  window_height: 850       # menu / level-select window height (pixels)
+  time_limit_seconds: 300
+  player_speed: 2.8
+  bomb_base_move_every: 10
+  bomb_fright_move_every: 18
+  bomb_speed_ratio: 0.62
+  cell_size: 28
+  fps: 60
+
+levels:
+  - id: 1
+    file: levels/level1.txt
+    speed_multiplier: 0.80
+    bomb_move_every: 9
+    bomb_fright_move_every: 22
+    theme: classic
+  - id: 2
+    file: levels/level2.txt
+    speed_multiplier: 1.00
+    bomb_move_every: 7
+    bomb_fright_move_every: 18
+    theme: classic
+  - id: 3
+    file: levels/level3.txt
+    speed_multiplier: 1.25
+    bomb_move_every: 5
+    bomb_fright_move_every: 14
+    theme: classic
+  - id: 4
+    file: levels/level4.txt
+    speed_multiplier: 0.85
+    bomb_move_every: 9
+    bomb_fright_move_every: 22
+    theme: forest
+  - id: 5
+    file: levels/level5.txt
+    speed_multiplier: 1.00
+    bomb_move_every: 7
+    bomb_fright_move_every: 18
+    theme: ice
+  - id: 6
+    file: levels/level6.txt
+    speed_multiplier: 0.80
+    bomb_move_every: 10
+    bomb_fright_move_every: 24
+    theme: desert
+  - id: 7
+    file: levels/level7.txt
+    speed_multiplier: 1.20
+    bomb_move_every: 6
+    bomb_fright_move_every: 15
+    theme: crystal
+  - id: 8
+    file: levels/level8.txt
+    speed_multiplier: 1.00
+    bomb_move_every: 7
+    bomb_fright_move_every: 18
+    theme: neon
+  - id: 9
+    file: levels/level9.txt
+    speed_multiplier: 1.30
+    bomb_move_every: 5
+    bomb_fright_move_every: 13
+    theme: haunted
+  - id: 10
+    file: levels/level10.txt
+    speed_multiplier: 0.80
+    bomb_move_every: 10
+    bomb_fright_move_every: 24
+    theme: candy
+  - id: 11
+    file: levels/level11.txt
+    speed_multiplier: 1.00
+    bomb_move_every: 8
+    bomb_fright_move_every: 20
+    theme: ocean
+  - id: 12
+    file: levels/level12.txt
+    speed_multiplier: 1.35
+    bomb_move_every: 5
+    bomb_fright_move_every: 12
+    theme: volcano
+  - id: 13
+    file: levels/level13.txt
+    speed_multiplier: 1.00
+    bomb_move_every: 7
+    bomb_fright_move_every: 18
+    theme: sky
